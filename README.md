@@ -1,1 +1,4 @@
-# Network-basic-tutorial
+# Ne
+| MODEL | FUNCTIONALITY|
+|---|--|
+| MAZDA6 | THIS IS A CAR |
