@@ -23,4 +23,9 @@ arp
  کامل😉بهتون توضیح میدم نگران نباشید چون این قسمت رو اینترویی برایه دستور ip گذاشتیم بهتون یه دید کلی میدم و در بخش هایی که برایه هر کدوم درست میکنم ریز میشیم و توضیح میدیم درست که منظورمون چی بود فعلا فقط بخونید و گوشه ذهنتون بزارید.
  -
  فعلا در همین حد بدونید که ip دستوری است که جایه گزین اکثر دستورات قدیمی شبکه شده .
- 
+ ---
+ اینم از اینکه ip چه object هایی دارد
+ ip addr  ---->  # Show IP addresses and network interfaces
+ip link    ---->    # Show or manage interface status
+ip route   ---->    # Show or manage routing table
+ip neigh  ----->     # Show ARP / neighbor table
