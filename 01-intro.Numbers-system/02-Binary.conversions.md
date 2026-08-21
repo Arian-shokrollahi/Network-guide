@@ -1,13 +1,13 @@
-![1](../01-00-images/1.png)
+![1](01-00-images/1.png)
 
 
 
-![2](../01-00-images/2.png)
+![2](01-00-images/2.png)
 
 
 
 
-![3](../01-00-images/3.png)
+![3](01-00-images/3.png)
 
 
 
