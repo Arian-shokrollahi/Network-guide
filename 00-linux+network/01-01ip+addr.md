@@ -1,3 +1,4 @@
+
 # ip addr command
 ---
 # section 01-01 ip addr command
@@ -144,7 +145,13 @@ for IPV6--->(inet6 رو فقط نشون میده)
     inet6 fe80::215:5dff:febb:8ef7/64 scope link proto kernel_ll
        valid_lft forever preferred_lft forever
 ```
+<p align="center">
+	<img src="00-00-images/exip.png" alt="ex1to5" width=600>
+</p>
 
+---
+
+---
 - 6-حالت ششم: حذف IP و اضافه کردن IP
 - نکته: دستور `ip addr add` معمولاً IP جدید را **به IPهای قبلی اضافه می‌کند**؛ جایگزین‌کردن کامل IP نیاز به حذف IP قدیمی یا تنظیم دائمی با Netplan / NetworkManager دارد.
 ```
@@ -156,6 +163,16 @@ old model with ifconfig command
 sudo ifconfig ens33 192.168.1.10 netmask 255.255.255.0 up
 
 ```
+<p align="center">
+	<img src="00-00-images/changeipv4.png" alt="model6 changeip" width=600>
+</p>
+
+
+مراحل عوض کردن IPV4
+- 1 -->دیدن IPV4 رابط فعلی --> ip -br -4 a & ip -br -4 addr
+- 2-->پاک کردن IPV4 قبلی---> ip a del  currentip/cidrprefix dev interfacename
+- 3-->بعد پاک کردن IPV4 دیگر اگر ip a بزنیم inet نداریم
+- 4-->حالا بریم سر وقت  اضافه کردن ای پی-->ip a add newip/prefix dev interface
+- 5-->حالا اگر -->ip -br -4 a --->میبینی ip جدید و CIDR Prefix جدید اضافه شده
+
 ---
-
-
